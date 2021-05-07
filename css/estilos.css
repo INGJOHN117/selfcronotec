@@ -1,0 +1,292 @@
+* {
+    font: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    box-shadow: 8px 8px 10px 3px #9EFFAC;
+    background: rgb(6, 121, 2);
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 69px;
+}
+
+
+/*2DAC35*/
+
+#menu {
+    width: 80%;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu ul a {
+    height: auto;
+    width: 18%;
+    float: left;
+    color: #6e6e6e;
+    text-decoration: none;
+    padding: 8px 20px 8px 20px;
+    border-bottom: 8px solid transparent;
+    transition: border-button .7s;
+    -webkit-transition: border-bottom .7s;
+    -moz-transition: border-bottom .7s;
+    -o-transition: border-bottom .7s;
+}
+
+#menu ul a:hover {
+    border-bottom: 9px solid #2DAC35;
+}
+
+#menu ul img {
+    float: left;
+    width: 150px;
+    height: 40px;
+}
+
+#cuerpo {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #6e6e6e;
+}
+
+#cronograma {
+    margin-top: 20px;
+    margin-left: 180px;
+    margin-right: 80px;
+    color: #6e6e6e;
+}
+
+.grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-areas: "uno dos tres cuatro" "cinco seis siete ocho";
+}
+
+.a {
+    grid-area: uno;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: #6e6e6e;
+}
+
+.b {
+    grid-area: dos;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: #6e6e6e;
+}
+
+.c {
+    grid-area: tres;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: #6e6e6e;
+}
+
+.d {
+    grid-area: cuatro;
+    height: 50px;
+}
+
+.e {
+    grid-area: cinco;
+    background: #f2f2f2;
+    height: 50px;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+    ;
+    border-radius: 3px;
+}
+
+.f {
+    grid-area: seis;
+    background: #2DAC35;
+    height: 50px;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.g {
+    grid-area: siete;
+    background: #f2f2f2;
+    height: 50px;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.h {
+    grid-area: ocho;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.e:hover,
+.f:hover,
+.g:hover {
+    box-shadow: 0px 0px 10px 3px #2DAC35;
+}
+
+.next,
+.previus {
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 10px;
+    background: transparent;
+    color: #3C9BF9;
+    border: none;
+}
+
+.accept {
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 10px;
+    background: transparent;
+    color: #2DAC35;
+    border: none;
+}
+
+.next:hover,
+.previus:hover,
+.accept:hover {
+    background: #9EE0FF;
+    border-radius: 5px;
+    outline: none;
+}
+
+.iconNext,
+.iconPrevius,
+.iconAccept {
+    font-size: 30px;
+}
+
+
+/*============================================================================*/
+
+
+/*CSS PARA REGISTRO-HTML*/
+
+* {
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid #5C8EF5;
+    font-size: 16px;
+}
+
+textarea {
+    box-shadow: 1px 1px 2px 1px #5C8EF5;
+    width: 100%;
+    padding: .7em;
+    border: none;
+    /*background: #f2f2f2;*/
+    outline: none;
+    border-bottom: 2px solid #5C8EF5;
+    font-size: 16px;
+}
+
+.text-input-center {
+    text-align: center;
+}
+
+.padding-bottom-edit {
+    /*soluciona problema de padding-bottom para los imput tipo date*/
+    padding-bottom: 6px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+p {
+    margin-top: 15px
+}
+
+.title-edit {
+    font-size: 25px;
+    padding: 40px;
+    text-align: center;
+}
+
+.button-container {
+    margin: 30px;
+    text-align: center;
+}
+
+.boton_personalizado {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+
+.boton_personalizado:hover {
+    color: #1883ba;
+    background-color: #ffffff;
+}
+
+.inline-item {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+
+/*select personalizado*/
+
+.select-edit {
+    border: none;
+    background: transparent;
+    margin: 20px;
+    font-weight: bold;
+    font: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    /*box-shadow: 3px 3px 5px 1px #1883ba;*/
+}
+
+.select-edit:hover {
+    box-shadow: 3px 3px 5px 1px #1883ba;
+}
+
+
+/*============================================================================*/
+
+
+/*ESTILOS PARA TABLAS*/
